@@ -14,7 +14,7 @@ def chat_once(user_input: str):
             {"role": "user", "content": user_input}
         ]
     )
-    print("respo/nse :", response)
+    # print("response :", response)
     reply = response.output[0].content[0].text
     usage = response.usage
 
